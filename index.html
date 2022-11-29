@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory | Menu</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+</head>
+
+<body>
+    <div class="menu">
+        <h2 class="headline">Memory</h2>
+        <div class="menu-section">
+            <div class="submenu-select">
+                <h3>Select The Card Set</h3>
+                <div class="selection-buttons">
+                    <button class="theme theme-active btn mode" value="icons-animals">Animals</button>
+                    <button class="theme btn mode" value="icons-transport">Transport</button>
+                    <button class="theme btn mode" value="icons-food">Food</button>
+                </div>
+            </div>
+            <div class="submenu-select">
+                <h3>Number Of Players</h3>
+                <div class="selection-buttons">
+                    <button class="players players-active btn mode" value="1">1</button>
+                    <button class="players btn mode" value="2">2</button>
+                    <button class="players btn mode" value="3">3</button>
+                    <button class="players btn mode" value="4">4</button>
+                </div>
+            </div>
+            <div class="submenu-select">
+                <h3>Field Size</h3>
+                <div class="selection-buttons">
+                    <button class="field field-active btn mode" value="3x4">3x4</button>
+                    <button class="field btn mode" value="4x4">4x4</button>
+                    <button class="field btn mode" value="5x4">5x4</button>
+                </div>
+            </div>
+            <a href="./game.html">
+                <button class="start btn mode">Start Game</button>
+            </a>
+        </div>
+    </div>
+    <audio name="Mario" src="./assets/audio/1.mp3" type="audio/mp3" autoplay></audio>
+
+    <!--Javascript-->
+    <script src="./assets/js/menu.js"></script>
+</body>
+
+</html>
